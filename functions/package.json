@@ -6,6 +6,7 @@
     "serve": "npm run build && firebase serve --only functions",
     "shell": "npm run build && firebase functions:shell",
     "start": "npm run shell",
+    "start:dev": "nodemon",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
@@ -29,7 +30,7 @@
     "@types/node": "^10.11.6",
     "@types/supertest": "^2.0.5",
     "jest": "^23.5.0",
-    "nodemon": "^1.18.3",
+    "nodemon": "^1.18.9",
     "prettier": "^1.14.2",
     "supertest": "^3.1.0",
     "ts-jest": "^23.1.3",

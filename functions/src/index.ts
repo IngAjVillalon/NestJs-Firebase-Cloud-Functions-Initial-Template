@@ -7,7 +7,7 @@ import * as cors from 'cors';
 
 // NestJs
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './nestRadecomApi/app.module';
+import { AppModule } from './nestApi/app.module';
 
 const server: express.Express = express();
 /* Express middleware. */

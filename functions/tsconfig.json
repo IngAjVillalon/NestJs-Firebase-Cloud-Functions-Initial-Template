@@ -14,7 +14,8 @@
     "experimentalDecorators": true,
     "outDir": "lib",
     "sourceMap": true,
-    "target": "es6"
+    "target": "es6",
+    "baseUrl": "./"
   },
   "compileOnSave": true,
   "include": [
@@ -22,6 +23,7 @@
   ],
   "exclude": [
     "node_modules",
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "src/nestApi/main.ts"
   ]
 }
