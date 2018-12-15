@@ -9,4 +9,4 @@ Steps to follow to work on this template:
  4. Install all dependencies `npm intall`
  5. Do a local test with the firebase local server `npm run serve` so you can see that everything is fine.
  6. Once you see it running without errors in your local environment, take the project to the server `npm run deploy`
- 7. **Start the development of your back end using nestJs:** `Npm run start: dev`
+ 7. **Start the development of your back end using nestJs:** `npm run start:dev`
