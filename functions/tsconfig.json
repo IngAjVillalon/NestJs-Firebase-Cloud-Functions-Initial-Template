@@ -15,7 +15,8 @@
     "outDir": "lib",
     "sourceMap": true,
     "target": "es6",
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "skipLibCheck": true
   },
   "compileOnSave": true,
   "include": [

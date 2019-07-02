@@ -7,6 +7,7 @@ import * as cors from 'cors';
 
 // NestJs
 import { NestFactory } from '@nestjs/core';
+import { ExpressAdapter } from '@nestjs/platform-express';
 import { AppModule } from './nestApi/app.module';
 
 const server: express.Express = express();
@@ -18,7 +19,7 @@ server.use(cors());
 
 const startNestApplication = async (expressInstance: express.Express) => {
 
-    const app = await NestFactory.create(AppModule, expressInstance);
+    const app = await NestFactory.create(AppModule, new ExpressAdapter(expressInstance));
 
     await app.init();
 };
