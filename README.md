@@ -1,6 +1,6 @@
  <img src="https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_function_firebase.max-400x400.png" alt="Firebase Cloud Functions logo" title="Firebase Cloud Functions" height="96" width="96" align="left"/> <img src="https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg" alt="Nest Js logo" title="Nest Js" height="96" width="96" align="right"/>
-# NestJs Firebase Cloud Functions Initial Template
-A initial template for a new nestjs project configured to be able to upload to cloud functions of firebase
+# NestJs Firebase Cloud Functions
+A **initial template** for a new NestJs project configured to be able to upload to cloud functions of firebase
 
 Steps to follow to work on this template:
 
