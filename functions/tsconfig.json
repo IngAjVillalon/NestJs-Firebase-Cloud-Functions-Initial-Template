@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "lib": [
-      "es6",
+      "es2017",
       "dom"
     ],
     "module": "commonjs",
@@ -14,7 +14,7 @@
     "experimentalDecorators": true,
     "outDir": "lib",
     "sourceMap": true,
-    "target": "es6",
+    "target": "es2017",
     "baseUrl": "./",
     "skipLibCheck": true
   },
