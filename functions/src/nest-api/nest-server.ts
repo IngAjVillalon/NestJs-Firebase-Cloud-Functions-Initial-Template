@@ -1,6 +1,5 @@
 // Express
 import * as express from 'express';
-import * as bodyParser from 'body-parser';
 import * as cors from 'cors';
 
 // NestJs
@@ -10,8 +9,8 @@ import { AppModule } from './app.module';
 
 export const NestServer: express.Express = express();
 /* Express middleware. */
-NestServer.use(bodyParser.json());
-NestServer.use(bodyParser.urlencoded({ extended: false }));
+NestServer.use(express.json());
+NestServer.use(express.urlencoded({ extended: false }));
 NestServer.use(cors());
 /* End of express middleware. */
 
