@@ -25,6 +25,6 @@
   "exclude": [
     "node_modules",
     "**/*.spec.ts",
-    "src/nestApi/main.ts"
+    "src/nest-api/main.ts"
   ]
 }
