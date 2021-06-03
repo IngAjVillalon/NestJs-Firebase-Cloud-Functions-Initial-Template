@@ -18,7 +18,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "firebase-admin": "^9.3.0",
-    "firebase-functions": "^3.11.0",
+    "firebase-functions": "^3.14.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.5.5"
