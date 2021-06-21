@@ -12,9 +12,9 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "@nestjs/common": "^7.6.15",
-    "@nestjs/core": "^7.6.15",
-    "@nestjs/platform-express": "^7.6.15",
+    "@nestjs/common": "^7.6.17",
+    "@nestjs/core": "^7.6.17",
+    "@nestjs/platform-express": "^7.6.17",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "firebase-admin": "^9.3.0",
