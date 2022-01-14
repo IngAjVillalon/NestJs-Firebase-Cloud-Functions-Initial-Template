@@ -16,7 +16,7 @@
     "@nestjs/core": "^7.6.18",
     "@nestjs/platform-express": "^7.6.18",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "firebase-admin": "^9.10.0",
     "firebase-functions": "^3.14.1",
     "reflect-metadata": "^0.1.13",
