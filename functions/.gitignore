@@ -7,3 +7,5 @@ typings/
 
 # Dependency directories
 node_modules/
+
+.DS_Store
