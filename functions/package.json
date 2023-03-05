@@ -13,7 +13,7 @@
   "main": "lib/index.js",
   "dependencies": {
     "@nestjs/common": "^8.4.3",
-    "@nestjs/core": "^8.4.3",
+    "@nestjs/core": "^9.0.5",
     "@nestjs/platform-express": "^8.4.3",
     "cors": "^2.8.5",
     "express": "^4.17.3",
