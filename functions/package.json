@@ -20,7 +20,7 @@
     "firebase-admin": "^10.0.2",
     "firebase-functions": "^3.19.0",
     "reflect-metadata": "^0.1.13",
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.0.0",
     "rxjs": "^7.5.5"
   },
   "devDependencies": {
