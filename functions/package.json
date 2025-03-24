@@ -12,7 +12,7 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "@nestjs/common": "^8.4.3",
+    "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^8.4.3",
     "@nestjs/platform-express": "^8.4.3",
     "cors": "^2.8.5",
